@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <authors>
+
    <author id="dnovatchev">
       <name>
          <display>Dimitre Novatchev</display>
       </name>
    </author>
+
    <author id="fgeorges">
       <name>
          <display>Florent Georges</display>
       </name>
    </author>
+
+   <author id="pwalmsley">
+      <name>
+         <display>Priscilla Walmsley</display>
+      </name>
+   </author>
+
 </authors>
