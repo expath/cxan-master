@@ -1,7 +1,43 @@
 <repos xml:base="file:/Users/fgeorges/projects/expath/cxan/sandbox/git-base//repos/">
+   <repo xml:base="./expath/">
+
+      <pkg abbrev="http-client-saxon" id="expath/http-client-saxon">
+         <name>http://expath.org/lib/http-client</name>
+         <abstract>EXPath HTTP Client for Saxon.</abstract>
+         <author id="fgeorges">Florent Georges</author>
+         <category id="libs">Libraries</category>
+         <category id="saxon">Saxon extensions</category>
+         <tag>http</tag>
+         <tag>library</tag>
+         <tag>saxon</tag>
+         <version num="0.11.0">
+            <file name="expath-http-client-saxon-0.11.0.xar" role="pkg"/>
+            <file name="expath-http-client-saxon-0.11.0.zip" role="archive"/>
+         </version>
+      </pkg>
+
+   </repo>
+   <repo xml:base="./expath.SAFE/">
+
+      <pkg abbrev="http-client-saxon" id="expath/http-client-saxon">
+         <name>http://expath.org/lib/http-client</name>
+         <abstract>EXPath HTTP Client for Saxon.</abstract>
+         <author id="fgeorges">Florent Georges</author>
+         <category id="libs">Libraries</category>
+         <category id="saxon">Saxon extensions</category>
+         <tag>http</tag>
+         <tag>library</tag>
+         <tag>saxon</tag>
+         <version num="0.11.0">
+            <file name="expath-http-client-saxon-0.11.0.xar" role="pkg"/>
+            <file name="expath-http-client-saxon-0.11.0.zip" role="archive"/>
+         </version>
+      </pkg>
+
+   </repo>
    <repo xml:base="./fgeorges/">
 
-      <pkg id="fxsl">
+      <pkg abbrev="fxsl" id="fgeorges/fxsl">
          <name>http://fxsl.sf.net/</name>
          <abstract>The famous FXSL library.</abstract>
          <author id="dnovatchev">Dimitre Novatchev</author>
@@ -13,7 +49,7 @@
          </version>
       </pkg>
 
-      <pkg id="functx">
+      <pkg abbrev="functx" id="fgeorges/functx">
          <name>http://functx.com/</name>
          <abstract>The famous FunctX library.</abstract>
          <author id="pwalmsley">Priscilla Walmsley</author>
