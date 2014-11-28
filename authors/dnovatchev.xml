@@ -3,6 +3,8 @@
       <display>Dimitre Novatchev</display>
    </name>
    <packages>
-      <pkg id="fxsl"/>
+      <pkg id="fgeorges/fxsl" repo="fgeorges" abbrev="fxsl" role="author">
+         <desc>The famous FXSL library.</desc>
+      </pkg>
    </packages>
 </author>

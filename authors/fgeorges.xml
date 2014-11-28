@@ -2,5 +2,24 @@
    <name>
       <display>Florent Georges</display>
    </name>
-   <packages/>
+   <packages>
+      <pkg id="expath/http-client-saxon"
+           repo="expath"
+           abbrev="http-client-saxon"
+           role="author">
+         <desc>EXPath HTTP Client for Saxon.</desc>
+      </pkg>
+      <pkg id="fgeorges/fxsl"
+           repo="fgeorges"
+           abbrev="fxsl"
+           role="maintainer">
+         <desc>The famous FXSL library.</desc>
+      </pkg>
+      <pkg id="fgeorges/functx"
+           repo="fgeorges"
+           abbrev="functx"
+           role="maintainer">
+         <desc>The famous FunctX library.</desc>
+      </pkg>
+   </packages>
 </author>

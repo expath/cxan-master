@@ -3,6 +3,11 @@
       <display>Priscilla Walmsley</display>
    </name>
    <packages>
-      <pkg id="functx"/>
+      <pkg id="fgeorges/functx"
+           repo="fgeorges"
+           abbrev="functx"
+           role="author">
+         <desc>The famous FunctX library.</desc>
+      </pkg>
    </packages>
 </author>
