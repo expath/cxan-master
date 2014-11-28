@@ -1,5 +1,5 @@
 <repos xml:base="file:/Users/fgeorges/projects/expath/cxan/sandbox/git-base//repos/">
-   <repo xml:base="./expath/">
+   <repo xml:base="./expath/" abbrev="expath">
 
       <pkg abbrev="http-client-saxon" id="expath/http-client-saxon">
          <name>http://expath.org/lib/http-client</name>
@@ -17,7 +17,7 @@
       </pkg>
 
    </repo>
-   <repo xml:base="./fgeorges/">
+   <repo xml:base="./fgeorges/" abbrev="fgeorges">
 
       <pkg abbrev="fxsl" id="fgeorges/fxsl">
          <name>http://fxsl.sf.net/</name>
