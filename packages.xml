@@ -17,24 +17,6 @@
       </pkg>
 
    </repo>
-   <repo xml:base="./expath.SAFE/">
-
-      <pkg abbrev="http-client-saxon" id="expath/http-client-saxon">
-         <name>http://expath.org/lib/http-client</name>
-         <abstract>EXPath HTTP Client for Saxon.</abstract>
-         <author id="fgeorges">Florent Georges</author>
-         <category id="libs">Libraries</category>
-         <category id="saxon">Saxon extensions</category>
-         <tag>http</tag>
-         <tag>library</tag>
-         <tag>saxon</tag>
-         <version num="0.11.0">
-            <file name="expath-http-client-saxon-0.11.0.xar" role="pkg"/>
-            <file name="expath-http-client-saxon-0.11.0.zip" role="archive"/>
-         </version>
-      </pkg>
-
-   </repo>
    <repo xml:base="./fgeorges/">
 
       <pkg abbrev="fxsl" id="fgeorges/fxsl">
