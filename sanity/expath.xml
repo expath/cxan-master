@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<sanity xmlns:c="http://www.w3.org/ns/xproc-step" pass="true">
+  <rule name="repo-dir" pass="true">
+    <title>Repo dir exist</title>
+    <msg>The directory file:/Users/fgeorges/projects/expath/cxan/sandbox/git-base//repos/expath/ exists.</msg>
+    <repo>file:/Users/fgeorges/projects/expath/cxan/sandbox/git-base//repos/expath/</repo>
+  </rule>
+  <rule name="descriptor" pass="true">
+    <title>Contains packages.xml</title>
+    <msg>The repository file:/Users/fgeorges/projects/expath/cxan/sandbox/git-base//repos/expath/ contains file:/Users/fgeorges/projects/expath/cxan/sandbox/git-base/repos/expath/packages.xml.</msg>
+    <repo>file:/Users/fgeorges/projects/expath/cxan/sandbox/git-base//repos/expath/</repo>
+    <packages>file:/Users/fgeorges/projects/expath/cxan/sandbox/git-base/repos/expath/packages.xml</packages>
+  </rule>
+  <rule name="valid" pass="true">
+    <title>packages.xml is valid</title>
+    <msg>The file packages.xml is valid against repo.xsd.</msg>
+  </rule>
+  <rule name="version-pkg" pass="true">
+    <title>One package per version</title>
+    <msg>The file packages.xml contains one package file per package version.</msg>
+  </rule>
+  <rule name="author" pass="true">
+    <title>Authors must exist</title>
+    <msg>The file packages.xml contains only existing authors.</msg>
+  </rule>
+  <rule name="categories" pass="true">
+    <title>Categories must exist</title>
+    <msg>The file packages.xml contains only existing categories.</msg>
+  </rule>
+  <rule name="files" pass="true">
+    <title>Directories and files must exist</title>
+    <msg>All directories (corresponding to pkg/@id and version/@num) and files referenced from packages.xml exist.</msg>
+  </rule>
+</sanity>
