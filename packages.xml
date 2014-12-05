@@ -19,6 +19,18 @@
    </repo>
    <repo xml:base="./fgeorges/" abbrev="fgeorges">
 
+      <pkg abbrev="functx" id="fgeorges/functx">
+         <name>http://functx.com/</name>
+         <abstract>The famous FunctX library.</abstract>
+         <author id="pwalmsley">Priscilla Walmsley</author>
+         <maintainer id="fgeorges">Florent Georges</maintainer>
+         <category id="libs">Libraries</category>
+         <tag>library</tag>
+         <version num="1.0">
+            <file name="functx-1.0.xar" role="pkg"/>
+         </version>
+      </pkg>
+
       <pkg abbrev="fxsl" id="fgeorges/fxsl">
          <name>http://fxsl.sf.net/</name>
          <abstract>The famous FXSL library.</abstract>
@@ -31,15 +43,18 @@
          </version>
       </pkg>
 
-      <pkg abbrev="functx" id="fgeorges/functx">
-         <name>http://functx.com/</name>
-         <abstract>The famous FunctX library.</abstract>
-         <author id="pwalmsley">Priscilla Walmsley</author>
-         <maintainer id="fgeorges">Florent Georges</maintainer>
-         <category id="libs">Libraries</category>
-         <tag>library</tag>
-         <version num="1.0">
-            <file name="functx-1.0.xar" role="pkg"/>
+      <pkg abbrev="xproject" id="fgeorges/xproject">
+         <name>http://expath.org/lib/project</name>
+         <abstract>XML Project Manager.</abstract>
+         <author id="fgeorges">Florent Georges</author>
+         <category id="applications">Applications</category>
+         <category id="tools">Tools</category>
+         <category id="pkg">Packaging</category>
+         <tag>tools</tag>
+         <tag>packaging</tag>
+         <tag>application</tag>
+         <version num="0.5.1">
+            <file name="xproject-0.5.1.xar" role="pkg"/>
          </version>
       </pkg>
 
