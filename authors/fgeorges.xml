@@ -9,17 +9,23 @@
            role="author">
          <desc>EXPath HTTP Client for Saxon.</desc>
       </pkg>
+      <pkg id="fgeorges/functx"
+           repo="fgeorges"
+           abbrev="functx"
+           role="maintainer">
+         <desc>The famous FunctX library.</desc>
+      </pkg>
       <pkg id="fgeorges/fxsl"
            repo="fgeorges"
            abbrev="fxsl"
            role="maintainer">
          <desc>The famous FXSL library.</desc>
       </pkg>
-      <pkg id="fgeorges/functx"
+      <pkg id="fgeorges/xproject"
            repo="fgeorges"
-           abbrev="functx"
-           role="maintainer">
-         <desc>The famous FunctX library.</desc>
+           abbrev="xproject"
+           role="author">
+         <desc>XML Project Manager.</desc>
       </pkg>
    </packages>
 </author>
