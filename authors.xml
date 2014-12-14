@@ -14,6 +14,24 @@
       </name>
    </author>
 
+   <author id="jkosek">
+      <name>
+         <display>Jirka Kosek</display>
+      </name>
+   </author>
+
+   <author id="nwalsh">
+      <name>
+         <display>Norman Walsh</display>
+      </name>
+   </author>
+
+   <author id="oasis">
+      <name>
+         <display>OASIS</display>
+      </name>
+   </author>
+
    <author id="pwalmsley">
       <name>
          <display>Priscilla Walmsley</display>
