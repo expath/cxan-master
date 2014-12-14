@@ -9,6 +9,24 @@
            role="author">
          <desc>EXPath HTTP Client for Saxon.</desc>
       </pkg>
+      <pkg id="fgeorges/docbook"
+           repo="fgeorges"
+           abbrev="docbook"
+           role="maintainer">
+         <desc>Schemas for DocBook 5.0.</desc>
+      </pkg>
+      <pkg id="fgeorges/docbook-xsl"
+           repo="fgeorges"
+           abbrev="docbook-xsl"
+           role="maintainer">
+         <desc>Stylesheets for DocBook, with namespace support.</desc>
+      </pkg>
+      <pkg id="fgeorges/docbook-xsl-nons"
+           repo="fgeorges"
+           abbrev="docbook-xsl-nons"
+           role="maintainer">
+         <desc>Stylesheets for DocBook, NO namespace support.</desc>
+      </pkg>
       <pkg id="fgeorges/functx"
            repo="fgeorges"
            abbrev="functx"

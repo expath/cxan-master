@@ -1,0 +1,13 @@
+<author id="oasis">
+   <name>
+      <display>OASIS</display>
+   </name>
+   <packages>
+      <pkg id="fgeorges/docbook"
+           repo="fgeorges"
+           abbrev="docbook"
+           role="author">
+         <desc>Schemas for DocBook 5.0.</desc>
+      </pkg>
+   </packages>
+</author>
