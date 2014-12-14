@@ -19,7 +19,7 @@
    </repo>
    <repo xml:base="./fgeorges/" abbrev="fgeorges">
 
-      <pkg abbrev="docbook-schemas" id="fgeorges/docbook-schemas">
+      <pkg abbrev="docbook" id="fgeorges/docbook">
          <name>http://docbook.org/schemas</name>
          <abstract>Schemas for DocBook 5.0.</abstract>
          <home>http://docbook.org/</home>
@@ -31,7 +31,7 @@
          <tag>doctype</tag>
          <tag>docbook</tag>
          <version num="5.0">
-            <file name="docbook-schemas-5.0.xar" role="pkg"/>
+            <file name="docbook-5.0.xar" role="pkg"/>
          </version>
       </pkg>
 
