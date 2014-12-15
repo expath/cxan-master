@@ -9,6 +9,12 @@
            role="author">
          <desc>EXPath HTTP Client for Saxon.</desc>
       </pkg>
+      <pkg id="fgeorges/calabash-basex"
+           repo="fgeorges"
+           abbrev="calabash-basex"
+           role="author">
+         <desc>BaseX XProc steps for Calabash.</desc>
+      </pkg>
       <pkg id="fgeorges/docbook"
            repo="fgeorges"
            abbrev="docbook"
