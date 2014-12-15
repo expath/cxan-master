@@ -19,6 +19,52 @@
    </repo>
    <repo xml:base="./fgeorges/" abbrev="fgeorges">
 
+      <pkg abbrev="docbook" id="fgeorges/docbook">
+         <name>http://docbook.org/schemas</name>
+         <abstract>Schemas for DocBook 5.0.</abstract>
+         <home>http://docbook.org/</home>
+         <author id="oasis">OASIS</author>
+         <author id="nwalsh">Norman Walsh</author>
+         <author id="jkosek">Jirka Kosek</author>
+         <maintainer id="fgeorges">Florent Georges</maintainer>
+         <category id="doctypes">Document types</category>
+         <tag>doctype</tag>
+         <tag>docbook</tag>
+         <version num="5.0">
+            <file name="docbook-5.0.xar" role="pkg"/>
+         </version>
+      </pkg>
+
+      <pkg abbrev="docbook-xsl" id="fgeorges/docbook-xsl">
+         <name>http://docbook.org/xsl</name>
+         <abstract>Stylesheets for DocBook, with namespace support.</abstract>
+         <home>http://docbook.sourceforge.net/</home>
+         <author id="nwalsh">Norman Walsh</author>
+         <maintainer id="fgeorges">Florent Georges</maintainer>
+         <category id="doctypes">Document types</category>
+         <tag>doctype</tag>
+         <tag>docbook</tag>
+         <tag>xslt</tag>
+         <version num="1.78.1">
+            <file name="docbook-xsl-1.78.1.xar" role="pkg"/>
+         </version>
+      </pkg>
+
+      <pkg abbrev="docbook-xsl-nons" id="fgeorges/docbook-xsl-nons">
+         <name>http://docbook.org/xsl-nons</name>
+         <abstract>Stylesheets for DocBook, NO namespace support.</abstract>
+         <home>http://docbook.sourceforge.net/</home>
+         <author id="nwalsh">Norman Walsh</author>
+         <maintainer id="fgeorges">Florent Georges</maintainer>
+         <category id="doctypes">Document types</category>
+         <tag>doctype</tag>
+         <tag>docbook</tag>
+         <tag>xslt</tag>
+         <version num="1.78.1">
+            <file name="docbook-xsl-nons-1.78.1.xar" role="pkg"/>
+         </version>
+      </pkg>
+
       <pkg abbrev="functx" id="fgeorges/functx">
          <name>http://functx.com/</name>
          <abstract>The famous FunctX library.</abstract>
