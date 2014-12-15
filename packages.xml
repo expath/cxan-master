@@ -19,6 +19,29 @@
    </repo>
    <repo xml:base="./fgeorges/" abbrev="fgeorges">
 
+      <pkg abbrev="calabash-basex" id="fgeorges/calabash-basex">
+         <name>http://fgeorges.org/lib/calabash-basex</name>
+         <abstract>BaseX XProc steps for Calabash.</abstract>
+         <home>https://github.com/fgeorges/calabash-basex-steps</home>
+         <author id="fgeorges">Florent Georges</author>
+         <category id="databases">Databases</category>
+         <category id="libs">Libraries</category>
+         <category id="calabash">Calabash</category>
+         <category id="basex">BaseX</category>
+         <!-- TODO: How to add dependencies? -->
+         <!--dependency processor="http://xmlcalabash.com/"/-->
+         <tag>database</tag>
+         <tag>library</tag>
+         <tag>xquery</tag>
+         <tag>xproc</tag>
+         <tag>calabash</tag>
+         <tag>basex</tag>
+         <version num="0.4.0">
+            <file name="calabash-basex-0.4.0.xar" role="pkg"/>
+            <file name="calabash-basex-0.4.0.zip" role="archive"/>
+         </version>
+      </pkg>
+
       <pkg abbrev="docbook" id="fgeorges/docbook">
          <name>http://docbook.org/schemas</name>
          <abstract>Schemas for DocBook 5.0.</abstract>
