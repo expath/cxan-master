@@ -1,13 +1,16 @@
 <categories>
    <cat id="applications" name="Applications"/>
+   <cat id="databases" name="Databases"/>
    <cat id="doctypes" name="Document types"/>
    <cat id="libs" name="Libraries"/>
    <cat id="pkg" name="Packaging"/>
    <cat id="tools" name="Tools"/>
    <cat id="web-api" name="Web APIs"/>
    <cat id="webapps" name="Webapps"/>
-   <cat id="processor" name="Processor-specific">
-      <cat id="saxon" name="Saxon extensions"/>
-      <cat id="exist" name="eXist extensions"/>
+   <cat id="processor" name="Processor-related">
+      <cat id="saxon" name="Saxon"/>
+      <cat id="exist" name="eXist"/>
+      <cat id="calabash" name="Calabash"/>
+      <cat id="basex" name="BaseX"/>
    </cat>
 </categories>
