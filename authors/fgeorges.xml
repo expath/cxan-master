@@ -45,6 +45,9 @@
            role="maintainer">
          <desc>The famous FXSL library.</desc>
       </pkg>
+      <pkg id="fgeorges/pipx" repo="fgeorges" abbrev="pipx" role="author">
+         <desc>The PipX library of steps for XProc.</desc>
+      </pkg>
       <pkg id="fgeorges/xproject"
            repo="fgeorges"
            abbrev="xproject"
