@@ -112,6 +112,19 @@
          </version>
       </pkg>
 
+      <pkg abbrev="pipx" id="fgeorges/pipx">
+         <name>http://pipx.org/</name>
+         <abstract>The PipX library of steps for XProc.</abstract>
+         <author id="fgeorges">Florent Georges</author>
+         <category id="libs">Libraries</category>
+         <tag>library</tag>
+         <tag>xproc</tag>
+         <version num="0.1.0">
+            <file name="pipx-0.1.0.xar" role="pkg"/>
+            <file name="pipx-0.1.0.zip" role="archive"/>
+         </version>
+      </pkg>
+
       <pkg abbrev="xproject" id="fgeorges/xproject">
          <name>http://expath.org/lib/project</name>
          <abstract>XML Project Manager.</abstract>
