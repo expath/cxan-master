@@ -9,6 +9,12 @@
            role="author">
          <desc>EXPath HTTP Client for Saxon.</desc>
       </pkg>
+      <pkg id="expath/file-saxon"
+           repo="expath"
+           abbrev="file-saxon"
+           role="author">
+         <desc>EXPath File for Saxon.</desc>
+      </pkg>
       <pkg id="fgeorges/calabash-basex"
            repo="fgeorges"
            abbrev="calabash-basex"
