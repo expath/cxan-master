@@ -16,6 +16,39 @@
          </version>
       </pkg>
 
+      <pkg abbrev="file-saxon" id="expath/file-saxon">
+         <name>http://expath.org/lib/file</name>
+         <abstract>EXPath File for Saxon.</abstract>
+         <author id="fgeorges">Florent Georges</author>
+         <category id="libs">Libraries</category>
+         <category id="saxon">Saxon extensions</category>
+         <tag>file</tag>
+         <tag>library</tag>
+         <tag>saxon</tag>
+         <version num="0.5.0">
+            <file name="expath-file-saxon-0.5.0.xar" role="pkg"/>
+            <file name="expath-file-saxon-0.5.0.zip" role="archive"/>
+         </version>
+      </pkg>
+
+   </repo>
+   <repo xml:base="./expath.OLD/" abbrev="expath">
+
+      <pkg abbrev="http-client-saxon" id="expath/http-client-saxon">
+         <name>http://expath.org/lib/http-client</name>
+         <abstract>EXPath HTTP Client for Saxon.</abstract>
+         <author id="fgeorges">Florent Georges</author>
+         <category id="libs">Libraries</category>
+         <category id="saxon">Saxon extensions</category>
+         <tag>http</tag>
+         <tag>library</tag>
+         <tag>saxon</tag>
+         <version num="0.11.0">
+            <file name="expath-http-client-saxon-0.11.0.xar" role="pkg"/>
+            <file name="expath-http-client-saxon-0.11.0.zip" role="archive"/>
+         </version>
+      </pkg>
+
    </repo>
    <repo xml:base="./fgeorges/" abbrev="fgeorges">
 
