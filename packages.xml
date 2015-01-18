@@ -1,5 +1,5 @@
 <repos xml:base="file:/Users/fgeorges/projects/expath/cxan/sandbox/git-base//repos/">
-   <repo xml:base="./expath.OLD/" abbrev="expath">
+   <repo xml:base="./expath/" abbrev="expath">
 
       <pkg abbrev="http-client-saxon" id="expath/http-client-saxon">
          <name>http://expath.org/lib/http-client</name>
