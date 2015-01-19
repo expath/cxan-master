@@ -72,6 +72,26 @@
          </version>
       </pkg>
 
+      <pkg abbrev="cxan-website" id="fgeorges/cxan-website">
+         <name>http://cxan.org/website</name>
+         <abstract>The CXAN website.</abstract>
+         <home>https://cxan.org/</home>
+         <author id="fgeorges">Florent Georges</author>
+         <category id="webapps">Webapps</category>
+         <tag>cxan</tag>
+         <tag>webapp</tag>
+         <tag>xproc</tag>
+         <!-- TODO: How to add dependencies? -->
+         <!--dependency package="http://fgeorges.org/lib/xslt/serial"/>
+      <dependency package="http://expath.org/lib/http-client"/>
+      <dependency package="http://expath.org/lib/crypto"/>
+      <dependency package="http://pipx.org/"/-->
+         <version num="0.7.0">
+            <file name="cxan-website-0.7.0.xaw" role="pkg"/>
+            <file name="cxan-website-0.7.0.zip" role="archive"/>
+         </version>
+      </pkg>
+
       <pkg abbrev="docbook" id="fgeorges/docbook">
          <name>http://docbook.org/schemas</name>
          <abstract>Schemas for DocBook 5.0.</abstract>
