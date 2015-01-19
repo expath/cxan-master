@@ -27,6 +27,12 @@
            role="author">
          <desc>BaseX XProc steps for Calabash.</desc>
       </pkg>
+      <pkg id="fgeorges/cxan-website"
+           repo="fgeorges"
+           abbrev="cxan-website"
+           role="author">
+         <desc>The CXAN website.</desc>
+      </pkg>
       <pkg id="fgeorges/docbook"
            repo="fgeorges"
            abbrev="docbook"
