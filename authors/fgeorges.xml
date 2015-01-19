@@ -3,17 +3,23 @@
       <display>Florent Georges</display>
    </name>
    <packages>
+      <pkg id="expath/file-saxon"
+           repo="expath"
+           abbrev="file-saxon"
+           role="author">
+         <desc>EXPath File for Saxon.</desc>
+      </pkg>
       <pkg id="expath/http-client-saxon"
            repo="expath"
            abbrev="http-client-saxon"
            role="author">
          <desc>EXPath HTTP Client for Saxon.</desc>
       </pkg>
-      <pkg id="expath/file-saxon"
+      <pkg id="expath/zip-saxon"
            repo="expath"
-           abbrev="file-saxon"
+           abbrev="zip-saxon"
            role="author">
-         <desc>EXPath File for Saxon.</desc>
+         <desc>EXPath ZIP for Saxon.</desc>
       </pkg>
       <pkg id="fgeorges/calabash-basex"
            repo="fgeorges"
