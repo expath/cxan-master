@@ -1,6 +1,21 @@
 <repos xml:base="file:/Users/fgeorges/projects/expath/cxan/sandbox/git-base//repos/">
    <repo xml:base="./expath/" abbrev="expath">
 
+      <pkg abbrev="file-saxon" id="expath/file-saxon">
+         <name>http://expath.org/lib/file</name>
+         <abstract>EXPath File for Saxon.</abstract>
+         <author id="fgeorges">Florent Georges</author>
+         <category id="libs">Libraries</category>
+         <category id="saxon">Saxon extensions</category>
+         <tag>file</tag>
+         <tag>library</tag>
+         <tag>saxon</tag>
+         <version num="0.5.0">
+            <file name="expath-file-saxon-0.5.0.xar" role="pkg"/>
+            <file name="expath-file-saxon-0.5.0.zip" role="archive"/>
+         </version>
+      </pkg>
+
       <pkg abbrev="http-client-saxon" id="expath/http-client-saxon">
          <name>http://expath.org/lib/http-client</name>
          <abstract>EXPath HTTP Client for Saxon.</abstract>
@@ -16,18 +31,18 @@
          </version>
       </pkg>
 
-      <pkg abbrev="file-saxon" id="expath/file-saxon">
-         <name>http://expath.org/lib/file</name>
-         <abstract>EXPath File for Saxon.</abstract>
+      <pkg abbrev="zip" id="expath/zip">
+         <name>http://expath.org/lib/zip</name>
+         <abstract>EXPath ZIP for Saxon.</abstract>
          <author id="fgeorges">Florent Georges</author>
          <category id="libs">Libraries</category>
          <category id="saxon">Saxon extensions</category>
-         <tag>file</tag>
          <tag>library</tag>
          <tag>saxon</tag>
-         <version num="0.5.0">
-            <file name="expath-file-saxon-0.5.0.xar" role="pkg"/>
-            <file name="expath-file-saxon-0.5.0.zip" role="archive"/>
+         <tag>zip</tag>
+         <version num="0.7.0">
+            <file name="expath-zip-saxon-0.7.0.xar" role="pkg"/>
+            <file name="expath-zip-saxon-0.7.0.zip" role="archive"/>
          </version>
       </pkg>
 
