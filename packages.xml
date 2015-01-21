@@ -75,7 +75,7 @@
       <pkg abbrev="cxan-website" id="fgeorges/cxan-website">
          <name>http://cxan.org/website</name>
          <abstract>The CXAN website.</abstract>
-         <home>https://cxan.org/</home>
+         <home>http://cxan.org/</home>
          <author id="fgeorges">Florent Georges</author>
          <category id="webapps">Webapps</category>
          <tag>cxan</tag>
