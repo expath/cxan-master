@@ -89,6 +89,7 @@
          <version num="0.7.0">
             <file name="cxan-website-0.7.0.xaw" role="pkg"/>
             <file name="cxan-website-0.7.0.zip" role="archive"/>
+            <file name="cxan-website-tools-0.7.0.zip" role="archive"/>
          </version>
       </pkg>
 
@@ -172,6 +173,19 @@
          <version num="0.1.0">
             <file name="pipx-0.1.0.xar" role="pkg"/>
             <file name="pipx-0.1.0.zip" role="archive"/>
+         </version>
+      </pkg>
+
+      <pkg abbrev="serial" id="fgeorges/serial">
+         <name>http://fgeorges.org/lib/serial</name>
+         <abstract>XML serializer in XSLT, to text and HTML.</abstract>
+         <author id="fgeorges">Florent Georges</author>
+         <category id="libs">Libraries</category>
+         <tag>library</tag>
+         <tag>serialization</tag>
+         <tag>xslt</tag>
+         <version num="0.4.0">
+            <file name="serial-0.4.0.xar" role="pkg"/>
          </version>
       </pkg>
 
