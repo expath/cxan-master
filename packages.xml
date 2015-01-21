@@ -1,4 +1,4 @@
-<repos xml:base="file:/Users/fgeorges/projects/expath/cxan/sandbox/git-base//repos/">
+<repos xml:base="file:/home/cxan/dev/git-base/repos/">
    <repo xml:base="./expath/" abbrev="expath">
 
       <pkg abbrev="file-saxon" id="expath/file-saxon">
