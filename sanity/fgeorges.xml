@@ -2,14 +2,14 @@
 <sanity xmlns:c="http://www.w3.org/ns/xproc-step" pass="true">
   <rule name="repo-dir" pass="true">
     <title>Repo dir exist</title>
-    <msg>The directory file:/Users/fgeorges/projects/expath/cxan/sandbox/git-base//repos/fgeorges/ exists.</msg>
-    <repo>file:/Users/fgeorges/projects/expath/cxan/sandbox/git-base//repos/fgeorges/</repo>
+    <msg>The directory file:/home/cxan/dev/git-base/repos/fgeorges/ exists.</msg>
+    <repo>file:/home/cxan/dev/git-base/repos/fgeorges/</repo>
   </rule>
   <rule name="descriptor" pass="true">
     <title>Contains packages.xml</title>
-    <msg>The repository file:/Users/fgeorges/projects/expath/cxan/sandbox/git-base//repos/fgeorges/ contains file:/Users/fgeorges/projects/expath/cxan/sandbox/git-base/repos/fgeorges/packages.xml.</msg>
-    <repo>file:/Users/fgeorges/projects/expath/cxan/sandbox/git-base//repos/fgeorges/</repo>
-    <packages>file:/Users/fgeorges/projects/expath/cxan/sandbox/git-base/repos/fgeorges/packages.xml</packages>
+    <msg>The repository file:/home/cxan/dev/git-base/repos/fgeorges/ contains file:/home/cxan/dev/git-base/repos/fgeorges/packages.xml.</msg>
+    <repo>file:/home/cxan/dev/git-base/repos/fgeorges/</repo>
+    <packages>file:/home/cxan/dev/git-base/repos/fgeorges/packages.xml</packages>
   </rule>
   <rule name="valid" pass="true">
     <title>packages.xml is valid</title>
