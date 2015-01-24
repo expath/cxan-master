@@ -66,6 +66,12 @@
       <pkg id="fgeorges/pipx" repo="fgeorges" abbrev="pipx" role="author">
          <desc>The PipX library of steps for XProc.</desc>
       </pkg>
+      <pkg id="fgeorges/serial"
+           repo="fgeorges"
+           abbrev="serial"
+           role="author">
+         <desc>XML serializer in XSLT, to text and HTML.</desc>
+      </pkg>
       <pkg id="fgeorges/xproject"
            repo="fgeorges"
            abbrev="xproject"
