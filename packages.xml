@@ -166,6 +166,7 @@
       <pkg abbrev="pipx" id="fgeorges/pipx">
          <name>http://pipx.org/</name>
          <abstract>The PipX library of steps for XProc.</abstract>
+         <home>http://pipx.org/</home>
          <author id="fgeorges">Florent Georges</author>
          <category id="libs">Libraries</category>
          <tag>library</tag>
