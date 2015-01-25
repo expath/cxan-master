@@ -18,4 +18,13 @@
       </git>
    </repo>
 
+   <repo abbrev="joewiz" href="../repos/joewiz/">
+      <desc>Joe Wicentowski's personal repository.</desc>
+      <packages>../repos/joewiz/packages.xml</packages>
+      <git>
+         <remote>https://github.com/joewiz/cxan-repo.git</remote>
+         <branch>master</branch>
+      </git>
+   </repo>
+
 </repositories>

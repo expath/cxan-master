@@ -1,0 +1,10 @@
+<author id="jpcs">
+   <name>
+      <display>John Snelson</display>
+   </name>
+   <packages>
+      <pkg id="joewiz/xqjson" repo="joewiz" abbrev="xqjson" role="author">
+         <desc>JSON Parser and Serializer for XQuery 3.0.</desc>
+      </pkg>
+   </packages>
+</author>

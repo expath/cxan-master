@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<sanity xmlns:c="http://www.w3.org/ns/xproc-step" pass="true">
+  <rule name="repo-dir" pass="true">
+    <title>Repo dir exist</title>
+    <msg>The directory file:/home/cxan/dev/git-base/repos/joewiz/ exists.</msg>
+    <repo>file:/home/cxan/dev/git-base/repos/joewiz/</repo>
+  </rule>
+  <rule name="descriptor" pass="true">
+    <title>Contains packages.xml</title>
+    <msg>The repository file:/home/cxan/dev/git-base/repos/joewiz/ contains file:/home/cxan/dev/git-base/repos/joewiz/packages.xml.</msg>
+    <repo>file:/home/cxan/dev/git-base/repos/joewiz/</repo>
+    <packages>file:/home/cxan/dev/git-base/repos/joewiz/packages.xml</packages>
+  </rule>
+  <rule name="valid" pass="true">
+    <title>packages.xml is valid</title>
+    <msg>The file packages.xml is valid against repo.xsd.</msg>
+  </rule>
+  <rule name="version-pkg" pass="true">
+    <title>One package per version</title>
+    <msg>The file packages.xml contains one package file per package version.</msg>
+  </rule>
+  <rule name="author" pass="true">
+    <title>Authors must exist</title>
+    <msg>The file packages.xml contains only existing authors.</msg>
+  </rule>
+  <rule name="categories" pass="true">
+    <title>Categories must exist</title>
+    <msg>The file packages.xml contains only existing categories.</msg>
+  </rule>
+  <rule name="files" pass="true">
+    <title>Directories and files must exist</title>
+    <msg>All directories (corresponding to pkg/@id and version/@num) and files referenced from packages.xml exist.</msg>
+  </rule>
+</sanity>

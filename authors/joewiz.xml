@@ -1,0 +1,13 @@
+<author id="joewiz">
+   <name>
+      <display>Joe Wicentowski</display>
+   </name>
+   <packages>
+      <pkg id="joewiz/xqjson"
+           repo="joewiz"
+           abbrev="xqjson"
+           role="maintainer">
+         <desc>JSON Parser and Serializer for XQuery 3.0.</desc>
+      </pkg>
+   </packages>
+</author>
