@@ -40,6 +40,18 @@
          <tag>library</tag>
          <tag>saxon</tag>
          <tag>zip</tag>
+         <version num="0.2">
+            <file name="expath-zip-saxon-0.2.xar" role="pkg"/>
+            <file name="expath-zip-saxon-0.2.zip" role="archive"/>
+         </version>
+         <version num="0.5.0">
+            <file name="expath-zip-saxon-0.5.0.xar" role="pkg"/>
+            <file name="expath-zip-saxon-0.5.0.zip" role="archive"/>
+         </version>
+         <version num="0.6.0">
+            <file name="expath-zip-saxon-0.6.0.xar" role="pkg"/>
+            <file name="expath-zip-saxon-0.6.0.zip" role="archive"/>
+         </version>
          <version num="0.7.0">
             <file name="expath-zip-saxon-0.7.0.xar" role="pkg"/>
             <file name="expath-zip-saxon-0.7.0.zip" role="archive"/>
