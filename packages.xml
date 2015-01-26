@@ -253,11 +253,11 @@
         <category id="libs">Libraries</category>
         <tag>json</tag>
         <tag>xquery</tag>
-        <version num="0.1.6">
-            <file name="xqjson-0.1.6.xar" role="pkg"/>
-        </version>
         <version num="0.2.0">
             <file name="xqjson-0.2.0.xar" role="pkg"/>
+        </version>
+        <version num="0.1.6">
+            <file name="xqjson-0.1.6.xar" role="pkg"/>
         </version>
       </pkg>
 
