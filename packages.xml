@@ -4,6 +4,7 @@
       <pkg abbrev="file-saxon" id="expath/file-saxon">
          <name>http://expath.org/lib/file</name>
          <abstract>EXPath File for Saxon.</abstract>
+         <home>https://github.com/fgeorges/expath-file-java</home>
          <author id="fgeorges">Florent Georges</author>
          <category id="libs">Libraries</category>
          <category id="saxon">Saxon extensions</category>
@@ -19,6 +20,7 @@
       <pkg abbrev="http-client-saxon" id="expath/http-client-saxon">
          <name>http://expath.org/lib/http-client</name>
          <abstract>EXPath HTTP Client for Saxon.</abstract>
+         <home>https://github.com/fgeorges/expath-http-client-java</home>
          <author id="fgeorges">Florent Georges</author>
          <category id="libs">Libraries</category>
          <category id="saxon">Saxon extensions</category>
@@ -58,6 +60,7 @@
       <pkg abbrev="zip-saxon" id="expath/zip-saxon">
          <name>http://expath.org/lib/zip</name>
          <abstract>EXPath ZIP for Saxon.</abstract>
+         <home>https://code.google.com/p/expath-zip/</home>
          <author id="fgeorges">Florent Georges</author>
          <category id="libs">Libraries</category>
          <category id="saxon">Saxon extensions</category>
