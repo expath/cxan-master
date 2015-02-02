@@ -122,6 +122,11 @@
       <dependency package="http://expath.org/lib/http-client"/>
       <dependency package="http://expath.org/lib/crypto"/>
       <dependency package="http://pipx.org/"/-->
+         <version num="0.8.0">
+            <file name="cxan-website-0.8.0.xaw" role="pkg"/>
+            <file name="cxan-website-0.8.0.zip" role="archive"/>
+            <file name="cxan-website-tools-0.8.0.zip" role="archive"/>
+         </version>
          <version num="0.7.0">
             <file name="cxan-website-0.7.0.xaw" role="pkg"/>
             <file name="cxan-website-0.7.0.zip" role="archive"/>
