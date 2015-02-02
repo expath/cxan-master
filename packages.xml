@@ -229,6 +229,7 @@
       <pkg abbrev="xproject" id="fgeorges/xproject">
          <name>http://expath.org/lib/project</name>
          <abstract>XML Project Manager.</abstract>
+         <home>http://expath.org/modules/xproject/</home>
          <author id="fgeorges">Florent Georges</author>
          <category id="applications">Applications</category>
          <category id="tools">Tools</category>
