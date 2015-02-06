@@ -190,6 +190,8 @@
       <pkg abbrev="functx" id="fgeorges/functx">
          <name>http://functx.com/</name>
          <abstract>The famous FunctX library.</abstract>
+         <home>http://functx.com/</home>
+         <code>https://github.com/fgeorges/functx-pkg</code>
          <author id="pwalmsley">Priscilla Walmsley</author>
          <maintainer id="fgeorges">Florent Georges</maintainer>
          <category id="libs">Libraries</category>
@@ -202,6 +204,8 @@
       <pkg abbrev="fxsl" id="fgeorges/fxsl">
          <name>http://fxsl.sf.net/</name>
          <abstract>The famous FXSL library.</abstract>
+         <home>http://fxsl.sourceforge.net/</home>
+         <code>https://github.com/fgeorges/fxsl-pkg</code>
          <author id="dnovatchev">Dimitre Novatchev</author>
          <maintainer id="fgeorges">Florent Georges</maintainer>
          <category id="libs">Libraries</category>
