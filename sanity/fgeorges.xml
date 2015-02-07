@@ -31,4 +31,21 @@
     <title>Directories and files must exist</title>
     <msg>All directories (corresponding to pkg/@id and version/@num) and files referenced from packages.xml exist.</msg>
   </rule>
+  <rule name="badges" pass="true">
+    <title>Badges must exist</title>
+    <msg>There is a badge for the repository and every package.</msg>
+    <badges>
+      <badge>fgeorges.svg</badge>
+      <badge>fgeorges/serial.svg</badge>
+      <badge>fgeorges/calabash-basex.svg</badge>
+      <badge>fgeorges/pipx.svg</badge>
+      <badge>fgeorges/docbook-xsl-nons.svg</badge>
+      <badge>fgeorges/docbook.svg</badge>
+      <badge>fgeorges/docbook-xsl.svg</badge>
+      <badge>fgeorges/cxan-website.svg</badge>
+      <badge>fgeorges/xproject.svg</badge>
+      <badge>fgeorges/functx.svg</badge>
+      <badge>fgeorges/fxsl.svg</badge>
+    </badges>
+  </rule>
 </sanity>

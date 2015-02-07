@@ -31,4 +31,14 @@
     <title>Directories and files must exist</title>
     <msg>All directories (corresponding to pkg/@id and version/@num) and files referenced from packages.xml exist.</msg>
   </rule>
+  <rule name="badges" pass="true">
+    <title>Badges must exist</title>
+    <msg>There is a badge for the repository and every package.</msg>
+    <badges>
+      <badge>expath.svg</badge>
+      <badge>expath/zip-saxon.svg</badge>
+      <badge>expath/file-saxon.svg</badge>
+      <badge>expath/http-client-saxon.svg</badge>
+    </badges>
+  </rule>
 </sanity>

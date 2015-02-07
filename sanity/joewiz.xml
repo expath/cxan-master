@@ -31,4 +31,12 @@
     <title>Directories and files must exist</title>
     <msg>All directories (corresponding to pkg/@id and version/@num) and files referenced from packages.xml exist.</msg>
   </rule>
+  <rule name="badges" pass="true">
+    <title>Badges must exist</title>
+    <msg>There is a badge for the repository and every package.</msg>
+    <badges>
+      <badge>joewiz.svg</badge>
+      <badge>joewiz/xqjson.svg</badge>
+    </badges>
+  </rule>
 </sanity>
