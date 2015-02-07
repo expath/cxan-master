@@ -4,6 +4,11 @@
       <pkg abbrev="file-saxon" id="expath/file-saxon">
          <name>http://expath.org/lib/file</name>
          <abstract>EXPath File for Saxon.</abstract>
+         <desc format="text">The EXPath File module provides tools to deal with files and file systems (what is the last
+time a file was accessed?, append some XML to an existing file, etc.)
+
+This is a third-party implementation for Saxon HE (Saxon PE and EE have native
+support for the EXPath File module).</desc>
          <code>https://github.com/fgeorges/expath-file-java</code>
          <author id="fgeorges">Florent Georges</author>
          <category id="libs">Libraries</category>
@@ -20,6 +25,9 @@
       <pkg abbrev="http-client-saxon" id="expath/http-client-saxon">
          <name>http://expath.org/lib/http-client</name>
          <abstract>EXPath HTTP Client for Saxon.</abstract>
+         <desc format="text">The EXPath HTTP Client provides a single function, sending a HTTP request, represented
+as an XML element (the endpoint URL, as well as the headers, body content, etc.)
+It return the HTTP response represented as XML as well.</desc>
          <code>https://github.com/fgeorges/expath-http-client-java</code>
          <author id="fgeorges">Florent Georges</author>
          <category id="libs">Libraries</category>
@@ -60,6 +68,8 @@
       <pkg abbrev="zip-saxon" id="expath/zip-saxon">
          <name>http://expath.org/lib/zip</name>
          <abstract>EXPath ZIP for Saxon.</abstract>
+         <desc format="text">The ZIP Facility module provides ways to read existing ZIP files and to generat new
+ones directly from XPath.</desc>
          <code>https://code.google.com/p/expath-zip/</code>
          <author id="fgeorges">Florent Georges</author>
          <category id="libs">Libraries</category>
@@ -91,6 +101,7 @@
       <pkg abbrev="calabash-basex" id="fgeorges/calabash-basex">
          <name>http://fgeorges.org/lib/calabash-basex</name>
          <abstract>BaseX XProc steps for Calabash.</abstract>
+         <desc format="text">Implements XProc steps for Calabash, to communicate with a BaseX instance.</desc>
          <code>https://github.com/fgeorges/calabash-basex-steps</code>
          <author id="fgeorges">Florent Georges</author>
          <category id="databases">Databases</category>
@@ -114,6 +125,7 @@
       <pkg abbrev="cxan-website" id="fgeorges/cxan-website">
          <name>http://cxan.org/website</name>
          <abstract>The CXAN website.</abstract>
+         <desc format="text">The webapp package for the CXAN website.</desc>
          <home>http://cxan.org/</home>
          <code>https://github.com/fgeorges/cxan</code>
          <author id="fgeorges">Florent Georges</author>
@@ -141,6 +153,7 @@
       <pkg abbrev="docbook" id="fgeorges/docbook">
          <name>http://docbook.org/schemas</name>
          <abstract>Schemas for DocBook 5.0.</abstract>
+         <desc format="text">The DocBook schemas, in various schema languages.</desc>
          <home>http://docbook.org/</home>
          <code>https://github.com/fgeorges/docbook-pkg</code>
          <author id="oasis">OASIS</author>
@@ -158,6 +171,11 @@
       <pkg abbrev="docbook-xsl" id="fgeorges/docbook-xsl">
          <name>http://docbook.org/xsl</name>
          <abstract>Stylesheets for DocBook, with namespace support.</abstract>
+         <desc format="text">This set of XSLT stylesheets for DocBook documents is the one with namespace
+support, meaning that the DocBook documents must be in the namespace defined for
+DocBook (as opposed to within no namespace at all, like back in the days...)
+
+This, indeed, is considered the modern way to write documents.</desc>
          <home>http://docbook.sourceforge.net/</home>
          <code>https://github.com/fgeorges/docbook-pkg</code>
          <author id="nwalsh">Norman Walsh</author>
@@ -174,6 +192,11 @@
       <pkg abbrev="docbook-xsl-nons" id="fgeorges/docbook-xsl-nons">
          <name>http://docbook.org/xsl-nons</name>
          <abstract>Stylesheets for DocBook, NO namespace support.</abstract>
+         <desc format="text">This set of XSLT stylesheets for DocBook documents is the one WITHOUT namespace
+support, meaning that the DocBook documents must NOT be in the namespace defined
+for DocBook (like back in the days, when namespaces were not wide-spread...)
+
+For the stylesheets WITH namespace support, see the package fgeorges/docbook-xsl.</desc>
          <home>http://docbook.sourceforge.net/</home>
          <code>https://github.com/fgeorges/docbook-pkg</code>
          <author id="nwalsh">Norman Walsh</author>
@@ -190,6 +213,12 @@
       <pkg abbrev="functx" id="fgeorges/functx">
          <name>http://functx.com/</name>
          <abstract>The famous FunctX library.</abstract>
+         <desc format="text">FunctX is a general-purpose XSLT and XQuery tool library.
+
+This version comes with support for f:open-ref-document() disabled, as it generates
+the following static error on MarkLogic: "err:FONS0005 - resolve-uri($refNode) --
+Base uri undefined in the static context", actually preventing to compile, hence to
+use, the module at all.</desc>
          <home>http://functx.com/</home>
          <code>https://github.com/fgeorges/functx-pkg</code>
          <author id="pwalmsley">Priscilla Walmsley</author>
@@ -204,6 +233,9 @@
       <pkg abbrev="fxsl" id="fgeorges/fxsl">
          <name>http://fxsl.sf.net/</name>
          <abstract>The famous FXSL library.</abstract>
+         <desc format="text">FXSL provides functional support for XSLT 1.0 and 2.0.  It can be somewhat absolete
+for XSLT 3.0, as this new version of the language comes with built-in first-class
+citizen function items, as well as several higher-order functions.</desc>
          <home>http://fxsl.sourceforge.net/</home>
          <code>https://github.com/fgeorges/fxsl-pkg</code>
          <author id="dnovatchev">Dimitre Novatchev</author>
@@ -218,6 +250,8 @@
       <pkg abbrev="pipx" id="fgeorges/pipx">
          <name>http://pipx.org/</name>
          <abstract>The PipX library of steps for XProc.</abstract>
+         <desc format="text">PipX is meant at being a standard XProc step library.  It is community-maintained,
+and contain generic steps, useful to potentially any XProc pipeline.</desc>
          <home>http://pipx.org/</home>
          <code>https://github.com/fgeorges/pipx</code>
          <author id="fgeorges">Florent Georges</author>
@@ -233,6 +267,8 @@
       <pkg abbrev="serial" id="fgeorges/serial">
          <name>http://fgeorges.org/lib/serial</name>
          <abstract>XML serializer in XSLT, to text and HTML.</abstract>
+         <desc format="text">Provides XPath functions to XSLT, to serialize XML nodes to either plain text or
+to HTML (with syntax highlighting).</desc>
          <code>https://github.com/fgeorges/serialize-xml</code>
          <author id="fgeorges">Florent Georges</author>
          <category id="libs">Libraries</category>
@@ -247,6 +283,14 @@
       <pkg abbrev="xproject" id="fgeorges/xproject">
          <name>http://expath.org/lib/project</name>
          <abstract>XML Project Manager.</abstract>
+         <desc format="text">XProject builds on the EXPath Packaging System and provides a convention-based project
+format.  If your project follows some simple conventions (like components are in
+sub-directory "src/", and "xproject/project.xml" contains some description of your
+project), then XProject can automatically build a package for it.
+
+XProject supports webapps as well.
+
+See the homepage for details.</desc>
          <home>http://expath.org/modules/xproject/</home>
          <code>https://github.com/fgeorges/xproject</code>
          <author id="fgeorges">Florent Georges</author>
