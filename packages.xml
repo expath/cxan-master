@@ -1,4 +1,4 @@
-<repos xml:base="file:/home/cxan/dev/git-base/repos/">
+<repos xml:base="file:/Users/fgeorges/projects/expath/cxan/sandbox/git-base//repos/">
    <repo xml:base="./expath/" abbrev="expath">
 
       <pkg abbrev="file-saxon" id="expath/file-saxon">
@@ -292,7 +292,6 @@ XProject supports webapps as well.
 
 See the homepage for details.</desc>
          <home>http://expath.org/modules/xproject/</home>
-         <code>https://github.com/fgeorges/xproject</code>
          <author id="fgeorges">Florent Georges</author>
          <category id="applications">Applications</category>
          <category id="tools">Tools</category>
