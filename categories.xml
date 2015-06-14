@@ -4,6 +4,7 @@
    <cat id="doctypes" name="Document types"/>
    <cat id="libs" name="Libraries"/>
    <cat id="pkg" name="Packaging"/>
+   <cat id="test" name="Test"/>
    <cat id="tools" name="Tools"/>
    <cat id="web-api" name="Web APIs"/>
    <cat id="webapps" name="Webapps"/>
