@@ -36,6 +36,7 @@
     <msg>There is a badge for the repository and every package.</msg>
     <badges>
       <badge>expath.svg</badge>
+      <badge>expath/xspec.svg</badge>
       <badge>expath/zip-saxon.svg</badge>
       <badge>expath/file-saxon.svg</badge>
       <badge>expath/http-client-saxon.svg</badge>

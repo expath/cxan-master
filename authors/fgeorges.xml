@@ -15,6 +15,9 @@
            role="author">
          <desc>EXPath HTTP Client for Saxon.</desc>
       </pkg>
+      <pkg id="expath/xspec" repo="expath" abbrev="xspec" role="author">
+         <desc>XSpec, the BDD framework to test XPath-based languages.</desc>
+      </pkg>
       <pkg id="expath/zip-saxon"
            repo="expath"
            abbrev="zip-saxon"

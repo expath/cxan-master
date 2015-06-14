@@ -1,0 +1,10 @@
+<author id="jenit">
+   <name>
+      <display>Jeni Tennison</display>
+   </name>
+   <packages>
+      <pkg id="expath/xspec" repo="expath" abbrev="xspec" role="author">
+         <desc>XSpec, the BDD framework to test XPath-based languages.</desc>
+      </pkg>
+   </packages>
+</author>
