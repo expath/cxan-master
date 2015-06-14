@@ -65,6 +65,29 @@ It return the HTTP response represented as XML as well.</desc>
          </version>
       </pkg>
 
+      <pkg abbrev="xspec" id="expath/xspec">
+         <name>http://www.jenitennison.com/xslt/xspec</name>
+         <abstract>XSpec, the BDD framework to test XPath-based languages.</abstract>
+         <desc format="text">XSpec is a Behaviour Driven Development (BDD) framework for XML
+processing, currently focusing on XSLT and XQuery.  It is based on the
+Spec framework of RSpec, which is a BDD framework for Ruby.
+
+XSpec consists of a syntax for describing the behaviour of your XSLT
+or XQuery code, and some code that enables you to test your code
+against those descriptions.</desc>
+         <code>https://github.com/expath/xspec</code>
+         <author id="fgeorges">Florent Georges</author>
+         <author id="jenit">Jeni Tennison</author>
+         <category id="applications">Applications</category>
+         <category id="test">Test</category>
+         <category id="tools">Tools</category>
+         <tag>test</tag>
+         <tag>bdd</tag>
+         <version num="0.4.0">
+            <file name="xspec-0.4.0.xar" role="pkg"/>
+         </version>
+      </pkg>
+
       <pkg abbrev="zip-saxon" id="expath/zip-saxon">
          <name>http://expath.org/lib/zip</name>
          <abstract>EXPath ZIP for Saxon.</abstract>
