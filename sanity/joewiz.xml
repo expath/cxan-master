@@ -2,14 +2,14 @@
 <sanity xmlns:c="http://www.w3.org/ns/xproc-step" pass="true">
   <rule name="repo-dir" pass="true">
     <title>Repo dir exist</title>
-    <msg>The directory file:/home/cxan/dev/git-base/repos/joewiz/ exists.</msg>
-    <repo>file:/home/cxan/dev/git-base/repos/joewiz/</repo>
+    <msg>The directory file:/home/servlex/test/cxan-website/repos/joewiz/ exists.</msg>
+    <repo>file:/home/servlex/test/cxan-website/repos/joewiz/</repo>
   </rule>
   <rule name="descriptor" pass="true">
     <title>Contains packages.xml</title>
-    <msg>The repository file:/home/cxan/dev/git-base/repos/joewiz/ contains file:/home/cxan/dev/git-base/repos/joewiz/packages.xml.</msg>
-    <repo>file:/home/cxan/dev/git-base/repos/joewiz/</repo>
-    <packages>file:/home/cxan/dev/git-base/repos/joewiz/packages.xml</packages>
+    <msg>The repository file:/home/servlex/test/cxan-website/repos/joewiz/ contains file:/home/servlex/test/cxan-website/repos/joewiz/packages.xml.</msg>
+    <repo>file:/home/servlex/test/cxan-website/repos/joewiz/</repo>
+    <packages>file:/home/servlex/test/cxan-website/repos/joewiz/packages.xml</packages>
   </rule>
   <rule name="valid" pass="true">
     <title>packages.xml is valid</title>
