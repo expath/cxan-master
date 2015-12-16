@@ -1,4 +1,4 @@
-<repos xml:base="file:/home/cxan/dev/git-base/repos/">
+<repos xml:base="file:/home/servlex/test/cxan-website/repos/">
    <repo xml:base="./expath/" abbrev="expath">
 
       <pkg abbrev="file-saxon" id="expath/file-saxon">
@@ -35,6 +35,10 @@ It return the HTTP response represented as XML as well.</desc>
          <tag>http</tag>
          <tag>library</tag>
          <tag>saxon</tag>
+         <version num="0.12.0">
+            <file name="expath-http-client-saxon-0.12.0.xar" role="pkg"/>
+            <file name="expath-http-client-saxon-0.12.0.zip" role="archive"/>
+         </version>
          <version num="0.11.0">
             <file name="expath-http-client-saxon-0.11.0.xar" role="pkg"/>
             <file name="expath-http-client-saxon-0.11.0.zip" role="archive"/>
@@ -100,6 +104,10 @@ ones directly from XPath.</desc>
          <tag>library</tag>
          <tag>saxon</tag>
          <tag>zip</tag>
+         <version num="0.8.0">
+            <file name="expath-zip-saxon-0.8.0.xar" role="pkg"/>
+            <file name="expath-zip-saxon-0.8.0.zip" role="archive"/>
+         </version>
          <version num="0.7.0">
             <file name="expath-zip-saxon-0.7.0.xar" role="pkg"/>
             <file name="expath-zip-saxon-0.7.0.zip" role="archive"/>
